@@ -54,7 +54,7 @@ const App = (props) => {
           </Col>
         </Row>
         <Button className=" submit-btn  "variant="primary" type="submit">
-          Submit
+          DROP
         </Button>
       </Form>
     </React.Fragment>
