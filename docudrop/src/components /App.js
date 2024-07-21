@@ -53,7 +53,7 @@ const App = (props) => {
             </Form.Group>
           </Col>
         </Row>
-        <Button variant="primary" type="submit">
+        <Button className=" submit-btn  "variant="primary" type="submit">
           Submit
         </Button>
       </Form>
