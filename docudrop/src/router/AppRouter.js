@@ -9,7 +9,7 @@ const AppRouter = () => (
       <Header />
       <div className="main-content">
         <Routes>
-          <Route path="/" element={<App />} />
+          <Route path="/" element={<App/>} />
         </Routes>
       </div>
     </div>
