@@ -6,10 +6,16 @@ const Header = () => {
     <div className="header">
       <h1>Docudrop</h1>
       <nav>
-        <NavLink activeClassName="active" to="/" exact={true}>
+        <NavLink
+          to="/"
+          className={({ isActive }) => (isActive ? 'active' : '')}
+        >
           Home
         </NavLink>
-        <NavLink activeClassName="active" to="/list">
+        <NavLink
+          to="/list"
+          className={({ isActive }) => (isActive ? 'active' : '')}
+        >
           Files List
         </NavLink>
       </nav>
